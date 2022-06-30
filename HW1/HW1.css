@@ -1,23 +1,23 @@
 table {
-    border-collapse: collapse;
-    border: 1px solid;
+  border-collapse: collapse;
+  border: 1px solid;
 }
 
-th,td {
-    border: 1px solid;
-    text-align: center;
-    padding: 0.5rem;
+th,
+td {
+  border: 1px solid;
+  text-align: center;
+  padding: 0.5rem;
 }
 
-
-input.search{
-    display: flex;
-    height: 44px;
-    background: #ffffff;
-    border: 1px solid #5f6368;
-    box-shadow: none;
-    border-radius: 24px;
-    margin: 0 auto;
-    width: 638px;
-    max-width: 584px;
+input.search {
+  display: flex;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #5f6368;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 638px;
+  max-width: 584px;
 }
