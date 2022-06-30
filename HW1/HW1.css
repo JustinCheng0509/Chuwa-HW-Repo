@@ -10,7 +10,7 @@ th,td {
 }
 
 
-input{
+input.search{
     display: flex;
     height: 44px;
     background: #ffffff;
