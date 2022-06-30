@@ -12,7 +12,6 @@ th,td {
 
 input{
     display: flex;
-    z-index: 3;
     height: 44px;
     background: #ffffff;
     border: 1px solid #5f6368;
