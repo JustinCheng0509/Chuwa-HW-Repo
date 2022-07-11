@@ -92,18 +92,5 @@ function merge(first, second) {
         else if (typeof item.role === "undefined") item.role = null;
     });
 
-    //console.log(obj);
-    // let result = [];
-    // for (const item of first) {
-    //     const index = second.findIndex((i) => i.uuid === item.uuid);
-    //     if (index !== -1) {
-    //         const { uuid, name, role } = { ...item, ...second[index] };
-    //         result.push({ uuid, name, role });
-    //     } else {
-    //         const { uuid, name } = item;
-    //         result.push({ uuid, name, role: null });
-    //     }
-    // }
-
     return mergedObj.sort((a, b) => a.uuid - b.uuid);
 }
