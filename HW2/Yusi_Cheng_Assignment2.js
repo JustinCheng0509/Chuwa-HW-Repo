@@ -77,14 +77,14 @@ console.log(arrMerge);
 
 ///////
 function merge(first, second) {
-    let mergedObj = first.reduce((pre, cur) => {
-        let temp = pre.find((item) => item.uuid == cur.uuid);
-        if (temp) {
-            Object.assign(temp, cur);
+    let mergedObj = first.reduce((acc, item) => {
+        let index = acc.find((i) => i.uuid == item.uuid);
+        if (index) {
+            Object.assign(index, item);
         } else {
-            pre.push(cur);
+            acc.push(item);
         }
-        return pre;
+        return acc;
     }, second);
 
     mergedObj.forEach((item) => {
