@@ -66,8 +66,8 @@ console.log("");
 ////////////////Q2 Functions////////////////////////////////////
 
 function replaced(str) {
-    const replaced = str.replace(/[^0-9a-z]/gi, "");
-    return replaced.toLowerCase();
+    const replaced = str.replace(/[^0-9a-z]/gi, " ");
+    return replaced.trim().toLowerCase();
 }
 
 //////////////////Q3 Output////////////////////
